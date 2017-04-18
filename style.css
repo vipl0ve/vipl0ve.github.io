@@ -550,14 +550,23 @@ background: url(images/dp.jpg) no-repeat center;
 	font-size: 18px;
 }
 
-.blog_heading span:nth-child(1) {
+.blog_heading .blog_date {
+	font-family: 'OpenSans-Regular';
+	color: #666;
+}
+
+.blog_heading .blog_title {
+	color: #258998;	
+}
+
+/* .blog_heading span:nth-child(1) {
 	color: #258998;	
 }
 
 .blog_heading span:nth-child(2){
 	font-family: 'OpenSans-Regular';
 	color: #666;
-}
+} */
 
 .blog_heading span a {
 	text-decoration: none;
@@ -694,9 +703,9 @@ footer p {
     margin-top: 30px;
 }
 
-footer p span:hover {
+/* footer p span:hover {
 	color: #ccc;
-}
+} */
 
 footer p span a {
 	text-decoration: none;
