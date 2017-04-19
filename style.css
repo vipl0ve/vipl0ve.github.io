@@ -23,6 +23,13 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: url('fonts/OpenSans-Semibold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
        
 @font-face {
     font-family: 'OpenSans-Bold';
@@ -110,10 +117,10 @@ header {
 }
 
 .bg_opaque {
-	width: 60%;
+	width: 58%;
     margin: 0 auto;
     background: rgba(0,0,0,0.7);
-    padding: 1% 0;
+    padding: 1%;
     margin-top: 10px;
 }
 
@@ -252,7 +259,7 @@ header {
 #aboutMe {
 	width: 100%;
 	background: #fff;
-	padding: 80px 0;
+	padding: 90px 0;
 	overflow: hidden;
 }
 
@@ -267,6 +274,7 @@ h2 {
     font-family: 'OpenSans-Bold';
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .dp {
@@ -279,7 +287,7 @@ background: url(images/dp.jpg) no-repeat center;
 }
 
 .paragraph {
-	margin-top: 10px;
+	margin-top: 15px;
 	font-size: 24px;
 	color: #666;
 	line-height: 30px;
@@ -326,30 +334,17 @@ background: url(images/dp.jpg) no-repeat center;
 #education {
 	width: 100%;
 	background-color: #2B2B2B;
-	padding: 131px 0;
+	padding: 90px 0;
 	overflow: hidden;
 }
 
-.heading {
-	float: left;
-}
-
-.heading span {
-	color: #fff;
-	font-size: 18px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	border-bottom: 3px solid #11ABB0;
-	padding-bottom: 6px;
-}
-
 .details {
-	width: 80%;
-	float: right;
+	text-align: center;
+	margin-top: 20px;
 }
 
 .details ul {
-	line-height: 40px;
+	line-height: 30px;
 }
 
 .details ul li {
@@ -358,51 +353,33 @@ background: url(images/dp.jpg) no-repeat center;
 	font-size: 15px;
 }
 
-.details .school{
-	color: #fff;
-	font-family: 'opensans-bold', sans-serif;
-	font-size: 25px;
+.details ul li span {
+	font-family: 'OpenSans-Semibold';
 }
 
-.details .address{
+.details ul .school {
+	color: #f6f6f6;
+    font-family: 'opensans-bold', sans-serif;
+    font-size: 20px;
+}
+
+.details ul .address {
 	font-size: 16px;
-	font-family: 'LibreBaskerville-Italic';
-	color: #dddcdc;
-	letter-spacing: 1px;
+    font-family: 'LibreBaskerville-Italic';
+    color: #dddcdc;
+    letter-spacing: 1px;
 }
 
-.details .degree{
+.details ul .degree {
 	color: #fff;
-	font-family: 'opensans-bold', sans-serif;
-	font-size: 20px;
+    font-family: 'OpenSans-Semibold';
+    font-size: 18px;
 }
 
-.details .major{
-	font-family: 'opensans-bold', sans-serif;
-}	
-
-.details .points{
-	list-style-type: disc;
-    margin-left: 18px;
+.details ul .specialize {
+	font-family: 'opensans-bold', sans-serif; 
+	color: #ccc;
 }
-
-/* .details ul li:nth-child(1){
-	color: #fff;
-	font-family: 'opensans-bold', sans-serif;
-	font-size: 25px;
-}
-
-.details ul li:nth-child(2){
-	font-size: 16px;
-	font-family: 'LibreBaskerville-Italic';
-	color: #dddcdc;
-	letter-spacing: 1px;
-}
-
-.details ul li:nth-child(3){
-	list-style-type: disc;
-    margin-left: 18px;
-} */
 
 /*******************************skills section*****************************/
 
@@ -413,9 +390,49 @@ background: url(images/dp.jpg) no-repeat center;
 	overflow: hidden;
 }
 
-.heading .skill {
-	color: #313131;
-	font-family: 'OpenSans-Bold';
+.skill_section {
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.skill_section div {
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+}
+
+.skill_section div p:nth-child(2){
+	font-size: 18px;
+	font-family: 'opensans-bold';
+	color: #333;
+}
+
+.skill_section div p:nth-child(3){
+	color: #777;
+	font-size: 15px;
+	line-height: 30px;
+	margin-top: 5px;
+}
+
+#pm {
+	background: url(images/pm.png) no-repeat center;
+	height: 100px;
+}
+
+#sd {
+	background: url(images/sd.png) no-repeat center;
+	height: 100px;
+}
+
+#qa {
+	background: url(images/qa.png) no-repeat center;
+	height: 100px;
+}
+
+#da {
+	background: url(images/da.png) no-repeat center;
+	height: 100px;
 }
 
 
@@ -424,17 +441,17 @@ background: url(images/dp.jpg) no-repeat center;
 #workExp {
 	width: 100%;
 	background-color: #2B2B2B;
-	padding: 100px 0;
+	padding: 90px 0;
 	overflow: hidden;
 }
 
-.exp_info {
-	width: 80%;
-	float: right;
+.exp_details {
+	text-align: center;
+	margin-top:40px;
 }
 
 .org_details {
-	line-height: 25px;
+	line-height: 30px;
 }
 
 .org_details li {
@@ -469,34 +486,19 @@ background: url(images/dp.jpg) no-repeat center;
 }
 
 .org_details .about {
-	font-family: 'LibreBaskerville-Italic';
-	font-size: 12px;
+	font-size: 15px;
 	color: #f1f2f2;
 }
 
 .org_details .title {
 	font-family: 'LibreBaskerville-Italic';
-	font-size: 15px;
-	color: #dddcdc;
-	letter-spacing: 1px;
-}
-
-/* .org_details li:first-child {
-	font-family: 'OpenSans-Light';
 	font-size: 16px;
-	color: #f1f2f2;
-	line-height: 40px;
-}
-
-.org_details li:last-child {
-	font-family: 'LibreBaskerville-Italic';
-	font-size: 15px;
 	color: #dddcdc;
 	letter-spacing: 1px;
 }
- */
+
 #logo_1 {
-	background: url(images/redbus_logo.png) no-repeat left center;
+	background: url(images/redbus_logo.png) no-repeat 26%;
 	padding-left: 60px;
 }
 
@@ -504,12 +506,12 @@ background: url(images/dp.jpg) no-repeat center;
 	font-size: 14px;
 	font-family: 'OpenSans-Light';
 	color: #ddd;
-	line-height: 30px;
-	margin-top: 20px;
+	line-height: 32px;
+	margin-top: 5px;
 }
 
 .role li {
-	list-style-type: disc;
+	list-style-type: none;
 }
 
 .role li span {
@@ -521,12 +523,12 @@ background: url(images/dp.jpg) no-repeat center;
 }
 
 #logo_2 {
-	background: url(images/sg_logo.png) no-repeat left center;
+	background: url(images/sg_logo.png) no-repeat 20%;
 	padding-left: 45px;
 }
 
 #logo_3 {
-	background: url(images/sourcen_logo.png) no-repeat left center;
+	background: url(images/sourcen_logo.png) no-repeat 29%;
 	padding-left: 45px;
 }
 
@@ -558,15 +560,6 @@ background: url(images/dp.jpg) no-repeat center;
 .blog_heading .blog_title {
 	color: #258998;	
 }
-
-/* .blog_heading span:nth-child(1) {
-	color: #258998;	
-}
-
-.blog_heading span:nth-child(2){
-	font-family: 'OpenSans-Regular';
-	color: #666;
-} */
 
 .blog_heading span a {
 	text-decoration: none;
@@ -638,7 +631,7 @@ background: url(images/dp.jpg) no-repeat center;
 .contact_body h2 {
 	color: #fff;
 	font-size: 24px;
-	letter-spacing: 3px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
