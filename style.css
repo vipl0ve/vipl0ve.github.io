@@ -278,7 +278,7 @@ h2 {
 }
 
 .dp {
-background: url(images/dp.jpg) no-repeat center;
+background: url(images/d.jpg) no-repeat center;
     height: 169px;
     width: 152px;
     margin: 0 auto;
@@ -290,7 +290,7 @@ background: url(images/dp.jpg) no-repeat center;
 	margin-top: 15px;
 	font-size: 24px;
 	color: #666;
-	line-height: 30px;
+	line-height: 34px;
 	font-family: 'vijaya';
 	text-align: center;
 }
@@ -306,6 +306,26 @@ background: url(images/dp.jpg) no-repeat center;
 .paragraph p span a {
 	text-decoration:none;
 	color: #3d97a9;
+}
+
+#read_more {
+	cursor: pointer;
+	color: #999;
+	font-size: 22px;
+}
+
+#read_more:hover {
+	color: #666;
+}
+
+.less {
+	cursor: pointer;
+	color: #999;
+	font-size: 22px;	
+}
+
+.less:hover {
+	color: #666;
 }
 
 .button {
@@ -327,6 +347,75 @@ background: url(images/dp.jpg) no-repeat center;
 .button:hover {
 	color: #fff;
 	background-color: #444;
+}
+
+/******************************Timeline section************************************/
+
+#timeline {
+	width: 100%;
+	background-color: #2B2B2B;
+	padding: 90px 0;
+	overflow: hidden;	
+}
+
+.wrapper_timeline {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.main {
+	width: 100%;
+	color: #f6f6f6;
+	padding-top: 20px;
+}
+
+.main ul li {
+	list-style-type: none;
+}
+
+.left_section {
+	float: left;
+	width: 42.5%;
+	margin-right: 5%;
+
+}
+
+.left_section li {
+    min-height: 150px;
+}
+
+.middle_section {
+	float: left;
+	width: 5%;
+}
+
+.edu {
+	background: url(images/grad.png) no-repeat center;
+	height: 47px;
+	border: 1px solid #f6f6f6;
+	border-radius: 50%;
+}
+
+.exp {
+	background: url(images/exp.png) no-repeat center;
+	height: 47px;
+	border: 1px solid #f6f6f6;
+	border-radius: 50%;
+}
+
+.line {
+	background: url(images/line.png) no-repeat center;
+	height: 100px;
+}
+
+.right_section {
+	float: left;
+	width: 42.5%;
+	margin-left: 5%;
+}
+
+.right_section li {
+	min-height: 150px;
 }
 
 /******************************education section************************************/
@@ -393,7 +482,6 @@ background: url(images/dp.jpg) no-repeat center;
 .skill_section {
 	width: 100%;
 	margin: 0 auto;
-	padding-top: 10px;
 }
 
 .skill_section div {
@@ -411,7 +499,7 @@ background: url(images/dp.jpg) no-repeat center;
 .skill_section div p:nth-child(3){
 	color: #777;
 	font-size: 15px;
-	line-height: 30px;
+	line-height: 27px;
 	margin-top: 5px;
 }
 
