@@ -364,43 +364,84 @@ background: url(images/dp.jpg) no-repeat center;
 }
 
 .main {
-	width: 100%;
-	color: #f6f6f6;
+	width: 80%;
+	margin: 0 auto;
+	color: #fff;
 	padding-top: 20px;
+}
+
+.main ul {
+	width: 36%;
+	margin-top: 22px;
 }
 
 .main ul li {
 	list-style-type: none;
 }
 
-.left_section {
-	float: left;
-	width: 42.5%;
-	margin-right: 5%;
-
+.main ul li span{
+	color: #17c5cb;
+	font-weight: bold;
+    font-size: 20px;
 }
 
-.left_section li {
-    min-height: 150px;
+.left_section {
+	margin-right: 9%;
+	float: left;
+}
+
+.right_section {
+	margin-left: 9%;
+	float: right;
 }
 
 .middle_section {
 	float: left;
-	width: 5%;
+	margin-top: 0!important;
+	width: 70px!important;
+}
+
+.left_section li {
+	min-height: 170px;
+}
+
+.right_section li {
+	min-height: 170px;
+}
+
+.middle_section li:nth-child(odd):after {
+	content: "- - - - -";
+	position: absolute;
+    color: #17c5cb;
+    margin-top: 15px;
+    margin-left: 69px;
+    font-size: 25px;	
+}
+
+.middle_section li:nth-child(3):after {
+	content: "- - - - -";
+	position: absolute;
+    color: #17c5cb;
+    font-size: 25px;
+    margin-left: -66px;		
+}
+
+.middle_section li:nth-child(7):after {
+	content: "- - - - -";
+	position: absolute;
+    color: #17c5cb;
+    font-size: 25px;
+    margin-left: -66px;		
 }
 
 .edu {
 	background: url(images/grad.png) no-repeat center;
-	height: 47px;
-	border: 1px solid #f6f6f6;
-	border-radius: 50%;
+	height: 70px;
 }
 
 .exp {
 	background: url(images/exp.png) no-repeat center;
-	height: 47px;
-	border: 1px solid #f6f6f6;
-	border-radius: 50%;
+	height: 70px;
 }
 
 .line {
@@ -408,14 +449,23 @@ background: url(images/dp.jpg) no-repeat center;
 	height: 100px;
 }
 
-.right_section {
-	float: left;
-	width: 42.5%;
-	margin-left: 5%;
+.head {
+	font-family: 'OpenSans-Bold';
+	background-color: #11ABB0;
+	padding: 1% 2%;
 }
 
-.right_section li {
-	min-height: 150px;
+.date {
+	margin-top: 10px;
+	color: #f6f6f6;
+	font-size: 14px;
+}
+
+.profile {
+	font-family: 'LibreBaskerville-Italic';
+	color: #f6f6f6;
+	letter-spacing: 1px;
+	margin-top: 10px;
 }
 
 /******************************education section************************************/
@@ -499,28 +549,28 @@ background: url(images/dp.jpg) no-repeat center;
 .skill_section div p:nth-child(3){
 	color: #777;
 	font-size: 15px;
-	line-height: 27px;
+	line-height: 30px;
 	margin-top: 5px;
 }
 
 #pm {
 	background: url(images/pm.png) no-repeat center;
-	height: 100px;
+	height: 80px;
 }
 
 #sd {
 	background: url(images/sd.png) no-repeat center;
-	height: 100px;
+	height: 80px;
 }
 
 #qa {
 	background: url(images/qa.png) no-repeat center;
-	height: 100px;
+	height: 80px;
 }
 
 #da {
 	background: url(images/da.png) no-repeat center;
-	height: 100px;
+	height: 80px;
 }
 
 
@@ -641,8 +691,9 @@ background: url(images/dp.jpg) no-repeat center;
 }
 
 .blog_heading .blog_date {
-	font-family: 'OpenSans-Regular';
-	color: #666;
+    font-family: 'LibreBaskerville-Italic';
+    color: #999;
+    font-size: 13px;
 }
 
 .blog_heading .blog_title {
