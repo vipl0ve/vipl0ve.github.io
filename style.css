@@ -449,7 +449,7 @@ background: url(images/dp.jpg) no-repeat center;
 	height: 100px;
 }
 
-.head {
+/* .head {
 	font-family: 'OpenSans-Bold';
 	background-color: #11ABB0;
 	padding: 1% 2%;
@@ -466,10 +466,69 @@ background: url(images/dp.jpg) no-repeat center;
 	color: #f6f6f6;
 	letter-spacing: 1px;
 	margin-top: 10px;
+} */
+
+.education .degree {
+	font-family: 'OpenSans-Bold';
+	background-color: #11ABB0;
+	padding: 1% 2%;
+}
+
+.education .school {
+	font-family: 'LibreBaskerville-Italic';
+	color: #f6f6f6;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+.education .university {
+	font-family: 'LibreBaskerville-Italic';
+	color: #f6f6f6;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+.education .date {
+	margin-top: 10px;
+	color: #f6f6f6;
+	font-size: 14px;
+}
+
+.education .description {
+	font-family: 'LibreBaskerville-Italic';
+	color: #f6f6f6;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+/* ######################################## */
+.workexp .title {
+	font-family: 'OpenSans-Bold';
+	background-color: #11ABB0;
+	padding: 1% 2%;
+}
+
+.workexp .company {
+	font-family: 'LibreBaskerville-Italic';
+	color: #f6f6f6;
+	letter-spacing: 1px;
+	margin-top: 10px;
+}
+
+.workexp .date {
+	margin-top: 10px;
+	color: #f6f6f6;
+	font-size: 14px;
+}
+
+.workexp .description {
+	color: #f6f6f6;
+	letter-spacing: 1px;
+	margin-top: 10px;
 }
 
 /******************************education section************************************/
-
+/* 
 #education {
 	width: 100%;
 	background-color: #2B2B2B;
@@ -518,7 +577,7 @@ background: url(images/dp.jpg) no-repeat center;
 .details ul .specialize {
 	font-family: 'opensans-bold', sans-serif; 
 	color: #ccc;
-}
+} */
 
 /*******************************skills section*****************************/
 
@@ -553,6 +612,11 @@ background: url(images/dp.jpg) no-repeat center;
 	margin-top: 5px;
 }
 
+.skill_section span:hover{
+	font-weight: bold;
+	color: #11ABB0;
+}
+
 #pm {
 	background: url(images/pm.png) no-repeat center;
 	height: 80px;
@@ -575,7 +639,7 @@ background: url(images/dp.jpg) no-repeat center;
 
 
 /*********************************work experience section*******************/
-
+/* 
 #workExp {
 	width: 100%;
 	background-color: #2B2B2B;
@@ -669,7 +733,7 @@ background: url(images/dp.jpg) no-repeat center;
 	background: url(images/sourcen_logo.png) no-repeat 29%;
 	padding-left: 45px;
 }
-
+ */
 /*******************************blog section*****************************/
 
 #blog {
@@ -724,6 +788,11 @@ background: url(images/dp.jpg) no-repeat center;
     padding: 2px 5px;
     border-radius: 3px;
     border: 1px solid #f1f2f3;
+}
+
+.tags span a:hover{
+	font-weight: bold;
+	color: #333;
 }
 
 #view_post {
