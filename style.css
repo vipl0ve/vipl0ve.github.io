@@ -39,6 +39,13 @@
 }
 
 @font-face {
+    font-family: 'Century Gothic';
+    src: url('fonts/Century Gothic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'vijaya';
     src: url('fonts/vijaya.ttf');
     font-weight: normal;
@@ -240,9 +247,17 @@ header {
 	width: 100%;
 	animation: typing 6s steps(60, end);
 	animation-iteration-count: infinite;
+	-moz-animation: typing 6s steps(60, end);
+	-moz-animation-iteration-count: infinite;
 }
-						
+
 	@keyframes typing {
+	0%{width:0;}
+	100%{width:100;}
+	}
+
+						
+	@-moz-keyframes typing {
 	0%{width:0;}
 	100%{width:100;}
 	}
@@ -286,6 +301,11 @@ background: url(images/dp.jpg) no-repeat center;
 	line-height: 34px;
 	font-family: 'vijaya';
 	text-align: center;
+}
+
+.paragraph .resume {
+	margin-top:30px;
+	text-align:center;
 }
 
 .paragraph p {
@@ -477,6 +497,10 @@ background: url(images/dp.jpg) no-repeat center;
 .skill_section {
 	width: 100%;
 	margin: 0 auto;
+}
+
+.skill2 {
+	padding-top: 10px;
 }
 
 .skill_section div {
@@ -753,8 +777,11 @@ footer p span a:hover{
 	    top: 120px;
 	}
 
+	/******************************mobile-about section****************************/
+
 	#aboutMe {
 		padding: 80px 0;
+		min-height: 508px;
 	}
 
 	.wrapper {
@@ -772,7 +799,7 @@ footer p span a:hover{
     }
 
     .paragraph {
-    	line-height: 27px;
+    	line-height: 22px;
     	font-size: 18px;
     }
 
@@ -785,6 +812,8 @@ footer p span a:hover{
 	    padding: 10px 20px;
     }
 
+    /******************************mobile-timeline section****************************/
+
     #timeline {
     	padding: 80px 0;
     }
@@ -794,8 +823,10 @@ footer p span a:hover{
     }
 
     .main {
-    	width: 80%;
+    	width: 88%;
     }
+
+    /******************************mobile-skill section****************************/
 
     #skillSets {
     	padding: 80px 0;
@@ -818,6 +849,12 @@ footer p span a:hover{
     	line-height: 22px;
     }
 
+    .skill2 {
+	padding-top: 22px;
+	}
+
+	/******************************mobile-blog section****************************/
+
     #blog {
     	padding: 80px 0;
     	min-height: 380px;
@@ -834,7 +871,7 @@ footer p span a:hover{
 
     .tags span a {
     	font-size: 9px;
-    	padding: 1.5px 5px;
+    	padding: 4px 7px;
     }
 
     #view_post {
@@ -844,6 +881,8 @@ footer p span a:hover{
     .posts {
     	font-size: 12px;
     }
+
+    /******************************mobile-contact section****************************/
 
     #contactMe {
     	padding: 160px 0;
@@ -862,6 +901,8 @@ footer p span a:hover{
     .contact_body p a {
     	font-size: 18px;
     }
+
+    /******************************mobile-footer****************************/
 
     footer p {
     	font-size: 12px;
