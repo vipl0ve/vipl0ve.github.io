@@ -765,8 +765,8 @@ footer p span a:hover{
 	}
 
 	.bg_opaque .info {
-	    font-size: 14px;
-	    line-height: 30px;
+	    font-size: 13.5px;
+	    line-height: 25px;
 	}
 
 	.mobile_icon {
@@ -774,7 +774,7 @@ footer p span a:hover{
 	}
 
 	.down-arrow {
-	    top: 100px;
+	    top: 115px;
 	}
 
 	/******************************mobile-about section****************************/
