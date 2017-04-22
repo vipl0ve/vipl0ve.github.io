@@ -820,7 +820,7 @@ footer p span a:hover{
 
     #blog {
     	padding: 80px 0;
-    	height: 380px;
+    	min-height: 380px;
     } 
 
     .blog_heading {
