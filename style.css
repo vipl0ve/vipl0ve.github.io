@@ -761,6 +761,8 @@ footer p span a:hover{
 	#home {
 	    padding: 100px 0;
 	    height: 448px;
+		background: url(images/bg_mobile.jpg) no-repeat top center;
+
 	}
 
 	.my_block h1 {
@@ -815,6 +817,14 @@ footer p span a:hover{
     .paragraph {
     	line-height: 22px;
     	font-size: 18px;
+    }
+
+    .paragraph p {
+    	margin-top: 7px;
+    }
+
+    .paragraph .resume {
+    	margin-top: 25px;
     }
 
     #read_more {
