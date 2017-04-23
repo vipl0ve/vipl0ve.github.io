@@ -321,6 +321,10 @@ background: url(images/dp.jpg) no-repeat center;
 	color: #0f999e;
 }
 
+#mission {
+	font-weight:bold;
+}
+
 #read_more {
 	cursor: pointer;
 	color: #999;
@@ -329,6 +333,12 @@ background: url(images/dp.jpg) no-repeat center;
 
 #read_more:hover {
 	color: #666;
+}
+
+#more span:hover {
+	font-weight:bold;
+	cursor: pointer;
+	color: #2cafda;
 }
 
 .less {
@@ -455,6 +465,7 @@ background: url(images/dp.jpg) no-repeat center;
 
 .education .degree, .workexp .title {
 	font-family: 'OpenSans-Semibold';
+	cursor: pointer;
 	background-color: #0f999e;
     padding: 1% 2%;
     font-size: 16px;
