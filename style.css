@@ -131,6 +131,15 @@ header {
 	line-height: 35px;
 }
 
+.bg_opaque .info span {
+	color: #fff;
+	text-decoration: none;
+}
+
+.bg_opaque .info span:hover {
+	color: #f87e29;
+}
+
 .bg_opaque .info span a {
 	color: #fff;
 	text-decoration: none;
