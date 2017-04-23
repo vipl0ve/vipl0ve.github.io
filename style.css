@@ -52,6 +52,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Vijaya Bold';
+    src: url('fonts/Vijaya Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body, html {
     margin: 0;
     padding: 0;
@@ -102,7 +109,7 @@ header {
 
 #home {
 	width: 100%;
-	background: url(images/header-background-LQ.png) no-repeat top center;
+	background: url(images/header-background-LQ.jpg) no-repeat top center;
    	background-size: cover !important;
 	padding: 165px 0;
 	overflow: hidden;
@@ -306,7 +313,7 @@ background: url(images/dp.jpg) no-repeat center;
 .paragraph {
 	margin-top: 15px;
 	font-size: 24px;
-	color: #666;
+	color: #777;
 	line-height: 34px;
 	font-family: 'vijaya';
 	text-align: center;
@@ -321,8 +328,8 @@ background: url(images/dp.jpg) no-repeat center;
 	margin-top: 10px;
 }
 
-.paragraph p span {
-	cursor: pointer;
+#more span:hover {
+	color: #333;
 }
 
 .paragraph p span a {
@@ -331,7 +338,7 @@ background: url(images/dp.jpg) no-repeat center;
 }
 
 #mission {
-	font-weight:bold;
+	font-family: 'Vijaya Bold';
 }
 
 #read_more {
@@ -341,22 +348,6 @@ background: url(images/dp.jpg) no-repeat center;
 }
 
 #read_more:hover {
-	color: #666;
-}
-
-#more span:hover {
-	font-weight:bold;
-	cursor: pointer;
-	color: #2cafda;
-}
-
-.less {
-	cursor: pointer;
-	color: #999;
-	font-size: 22px;	
-}
-
-.less:hover {
 	color: #666;
 }
 
@@ -547,7 +538,6 @@ background: url(images/dp.jpg) no-repeat center;
 }
 
 .skill_section span:hover{
-	cursor: pointer;
 	color: #2cafda;
 }
 
@@ -769,7 +759,7 @@ footer p span a:hover{
 	}
 
 	#home {
-	    padding: 111px 0;
+	    padding: 100px 0;
 	    height: 448px;
 	}
 
@@ -789,12 +779,16 @@ footer p span a:hover{
 	    line-height: 25px;
 	}
 
-	.mobile_icon {
-		display: none;
+	.mobile_icon li{
+		width: 45px;
+	}
+
+	.mobile_icon li a {
+		font-size: 22px;
 	}
 
 	.down-arrow {
-	    top: 115px;
+	    top: 70px;
 	}
 
 	/******************************mobile-about section****************************/
