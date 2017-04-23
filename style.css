@@ -752,7 +752,33 @@ footer p span a:hover{
 
 /***********************************Media Query starts here****************************************/
 
-@media(max-width: 414px){
+/********************media query for tabs**************************************/
+
+@media(max-width: 1280px){
+	#home {
+		height: 440px;
+	}
+
+	.down-arrow {
+		top: 130px;
+	}
+
+	.skill_section div {
+		width: 100%;
+	}
+
+	#sd {
+		margin-top: 15px;
+	}
+
+	#blog {
+		min-height: 310px;
+	}
+}
+
+/********************media query for mobiles**************************************/
+
+@media(max-width: 550px){
 	#nav li a {
     	letter-spacing: 0;
     	padding: 0 5px;
@@ -910,6 +936,7 @@ footer p span a:hover{
 
     #contactMe {
     	padding: 160px 0;
+    	min-height: 110px;
     }
 
     .contact_body h2 {
@@ -943,9 +970,8 @@ footer p span a:hover{
     .footer_icon li {
     	width: 60px;
     }
-
-
 }
+
 
 
 
