@@ -302,7 +302,7 @@ h2 {
 }
 
 .dp {
-background: url(images/dp.jpg) no-repeat center;
+	background: url(images/dp.jpg) no-repeat center;
     height: 169px;
     width: 152px;
     margin: 0 auto;
@@ -332,12 +332,12 @@ background: url(images/dp.jpg) no-repeat center;
 	color: #333;
 }
 
-.paragraph p span a {
+#strength span{
 	text-decoration:none;
 	color: #0f999e;
 }
 
-#mission {
+#myheading {
 	font-family: 'Vijaya Bold';
 }
 
@@ -465,7 +465,6 @@ background: url(images/dp.jpg) no-repeat center;
 
 .education .degree, .workexp .title {
 	font-family: 'OpenSans-Semibold';
-	cursor: pointer;
 	background-color: #0f999e;
     padding: 1% 2%;
     font-size: 16px;
@@ -606,8 +605,7 @@ background: url(images/dp.jpg) no-repeat center;
 	margin-top: 10px;
 }
 
-.tags span a{
-	text-decoration: none;
+.tags span{
     font-family: 'OpenSans-Light';
     font-size: 12px;
     color: #444;
@@ -617,7 +615,7 @@ background: url(images/dp.jpg) no-repeat center;
     border: 1px solid #f1f2f3;
 }
 
-.tags span a:hover{
+.tags span:hover{
 	font-weight: bold;
 	color: #333;
 }
