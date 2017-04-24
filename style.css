@@ -302,7 +302,7 @@ h2 {
 }
 
 .dp {
-	background: url(images/d.jpg) no-repeat center;
+	background: url(images/dp.jpg) no-repeat center;
     height: 169px;
     width: 152px;
     margin: 0 auto;
@@ -381,118 +381,145 @@ h2 {
 	overflow: hidden;	
 }
 
-.wrapper_timeline {
-	width: 70%;
-	margin: 0 auto;
-}
-
 .main {
-	width: 95%;
-	margin: 0 auto;
-	color: #fff;
-	padding-top: 20px;
+	text-align: center;
+	font-size: 15px;
+	margin-top: 25px;
 }
 
-.main ul {
-	width: 38.5%;
-	margin-top: 22px;
+.education {
+	width: 100%;
 }
 
-.main ul li {
-	list-style-type: none;
+.education div {
+	display: inline-block;
 }
 
-.main ul li span{
-	color: #17c5cb;
-	font-weight: bold;
-    font-size: 20px;
+.blank {
+	width: 38%;
 }
 
-.left_section {
-	float: left;
+.edu_icon {
+	width: 20%;
+	background: url(images/grad.png) no-repeat 50% 0%;
+	height: 169px;
+}
+
+.edu_icon:after {
+	content: "- - - - -";
+	position: absolute;
+    color: #17c5cb;
+    font-size: 25px;	
+    margin-top: 15px;
+    margin-left: 37px;
+}
+
+.education_details {
+	width: 38%;
 	text-align: right;
 }
 
-.right_section {
-	float: left;
+.leftAlign {
+	text-align: left;
+} 
+
+.workexp {
+	width: 100%;
 }
 
-.middle_section {
-	float: left;
-	margin-top: 0!important;
-	width: 23% !important;
+.workexp div {
+	display: inline-block;
 }
 
-.left_section li {
-	min-height: 170px;
+.exp_icon {
+	width: 20%;
+	background: url(images/exp.png) no-repeat 50% -4%;
+	height: 160px;
 }
 
-.right_section li {
-	min-height: 170px;
-}
-
-.middle_section li:nth-child(odd):after {
+.exp_icon:after {
 	content: "- - - - -";
 	position: absolute;
     color: #17c5cb;
-    margin-top: 15px;
-    margin-left: 10.3%;
     font-size: 25px;	
+    margin-top: 15px;
+    margin-left: -102px;
 }
 
-.middle_section li:nth-child(3):after, .middle_section li:nth-child(7):after{
+.dotted:after {
 	content: "- - - - -";
 	position: absolute;
     color: #17c5cb;
-    font-size: 25px;
-    margin-left: 0.1%;	
+    font-size: 25px;	
+    margin-top: 15px;
+    margin-left: 37px;
 }
 
-.edu {
-	background: url(images/grad.png) no-repeat center;
-	height: 70px;
+.dotted_edu:after {
+	content: "- - - - -";
+	position: absolute;
+    color: #17c5cb;
+    font-size: 25px;	
+    margin-top: 15px;
+    margin-left: -102px;
 }
 
-.exp {
-	background: url(images/exp.png) no-repeat center;
-	height: 70px;
+
+.work_details {
+	width: 38%;
+	text-align: left;
 }
 
-.line {
-	background: url(images/line.png) no-repeat center;
-	height: 100px;
+.rightAlign {
+	text-align: right;
 }
 
-.education .degree, .workexp .title {
+.game_icon {
+	width: 20%;
+	background: url(images/gaming.png) no-repeat 50% 0%;
+	height: 160px;
+}
+
+.game_icon:after {
+	content: "- - - - -";
+	position: absolute;
+    color: #17c5cb;
+    font-size: 25px;	
+    margin-top: 15px;
+    margin-left: 37px;
+}
+
+.degree, .title {
 	font-family: 'OpenSans-Semibold';
 	background-color: #0f999e;
-    padding: 1% 2%;
-    font-size: 16px;
+	color: #fff;
+	font-size: 17px;
+	padding: 1% 2%;
 }
 
-.education .school, .workexp .company {
+.school, .company {
 	font-family: 'OpenSans-Semibold';
-	font-size: 15px;
-	margin-top: 20px;
 	color: #f6f6f6;
+	margin-top: 15px;
 }
 
 .education .university {
-	font-size: 15px;
 	color: #f6f6f6;
+	line-height: 30px;
 }
 
-.date {
+.year {
 	font-family: 'vijaya';
 	letter-spacing: 1px;
-	font-size: 20px;
-	margin-top:10px;
 	color: #f6f6f6;
+	font-size: 20px;
+	margin-top: 10px;
 }
 
 .description {
 	font-family: 'OpenSans-Light';
-	font-size: 14px;
+	color: #fff;
+	margin-top: 10px;
 }
 
 /*************************************skill section********************************************/
