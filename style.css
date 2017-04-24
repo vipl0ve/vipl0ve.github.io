@@ -372,6 +372,71 @@ h2 {
 	background-color: #444;
 }
 
+/*************************************skill section********************************************/
+
+#skillSets {
+	width: 100%;
+	background-color: #f6f6f6;
+	padding: 90px 0;
+	overflow: hidden;
+}
+
+.skill_section {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.skill2 {
+	padding-top: 10px;
+}
+
+.skill_section div {
+	display: inline-block;
+	width: 45%;
+	text-align: center;
+}
+
+.skill_section div p:nth-child(2){
+	font-size: 18px;
+	font-family: 'opensans-bold';
+	color: #333;
+}
+
+.skill_section div p:nth-child(3){
+	color: #777;
+	font-size: 15px;
+	line-height: 30px;
+	margin-top: 5px;
+}
+
+.skill_section div p span {
+	font-family: 'OpenSans-Semibold';
+}
+
+.skill_section span:hover{
+	color: #2cafda;
+}
+
+#pm {
+	background: url(images/pm.png) no-repeat center;
+	height: 80px;
+}
+
+#sd {
+	background: url(images/sd.png) no-repeat center;
+	height: 80px;
+}
+
+#qa {
+	background: url(images/qa.png) no-repeat center;
+	height: 80px;
+}
+
+#da {
+	background: url(images/da.png) no-repeat center;
+	height: 80px;
+}
+
 /******************************Timeline section************************************/
 
 #timeline {
@@ -522,70 +587,6 @@ h2 {
 	margin-top: 10px;
 }
 
-/*************************************skill section********************************************/
-
-#skillSets {
-	width: 100%;
-	background-color: #f6f6f6;
-	padding: 90px 0;
-	overflow: hidden;
-}
-
-.skill_section {
-	width: 100%;
-	margin: 0 auto;
-}
-
-.skill2 {
-	padding-top: 10px;
-}
-
-.skill_section div {
-	display: inline-block;
-	width: 45%;
-	text-align: center;
-}
-
-.skill_section div p:nth-child(2){
-	font-size: 18px;
-	font-family: 'opensans-bold';
-	color: #333;
-}
-
-.skill_section div p:nth-child(3){
-	color: #777;
-	font-size: 15px;
-	line-height: 30px;
-	margin-top: 5px;
-}
-
-.skill_section div p span {
-	font-family: 'OpenSans-Semibold';
-}
-
-.skill_section span:hover{
-	color: #2cafda;
-}
-
-#pm {
-	background: url(images/pm.png) no-repeat center;
-	height: 80px;
-}
-
-#sd {
-	background: url(images/sd.png) no-repeat center;
-	height: 80px;
-}
-
-#qa {
-	background: url(images/qa.png) no-repeat center;
-	height: 80px;
-}
-
-#da {
-	background: url(images/da.png) no-repeat center;
-	height: 80px;
-}
 
 /*******************************blog section*****************************/
 
