@@ -409,7 +409,7 @@ h2 {
 	content: "- - - - -";
 	position: absolute;
     color: #17c5cb;
-    font-size: 25px;	
+    font-size: 23px;	
     margin-top: 15px;
     margin-left: 37px;
 }
@@ -441,16 +441,16 @@ h2 {
 	content: "- - - - -";
 	position: absolute;
     color: #17c5cb;
-    font-size: 25px;	
+    font-size: 23px;	
     margin-top: 15px;
-    margin-left: -102px;
+    margin-left: -97px;
 }
 
 .dotted:after {
 	content: "- - - - -";
 	position: absolute;
     color: #17c5cb;
-    font-size: 25px;	
+    font-size: 23px;	
     margin-top: 15px;
     margin-left: 37px;
 }
@@ -459,9 +459,9 @@ h2 {
 	content: "- - - - -";
 	position: absolute;
     color: #17c5cb;
-    font-size: 25px;	
+    font-size: 23px;	
     margin-top: 15px;
-    margin-left: -102px;
+    margin-left: -97px;
 }
 
 
@@ -484,7 +484,7 @@ h2 {
 	content: "- - - - -";
 	position: absolute;
     color: #17c5cb;
-    font-size: 25px;	
+    font-size: 23px;	
     margin-top: 15px;
     margin-left: 37px;
 }
@@ -799,6 +799,39 @@ footer p span a:hover{
 	#blog {
 		min-height: 310px;
 	}
+
+	.edu_icon:after {
+    content: "- - - -";
+	}
+
+	.exp_icon:after {
+		content: "- - - -";
+		margin-left: -84px;
+		margin-top: 18px;
+	}
+
+	.dotted:after {
+		content: "- - - -";
+		margin-left: 37px;
+	}
+
+	.dotted_edu:after {
+	    content: "- - - -";
+	    margin-left: -84px;
+	}
+
+	.game_icon:after {
+	    content: "- - - -";
+	}
+
+	.time_wrap {
+		width: 90%;
+	}
+
+	.degree, .title {
+		font-size: 15px;
+	}
+
 }
 
 /********************media query for mobiles**************************************/
@@ -893,12 +926,71 @@ footer p span a:hover{
     	padding: 80px 0;
     }
 
-    .wrapper_timeline {
+    .main {
+    	margin-top: 0;
+    	font-size: 13px;
+    }
+
+    .work_details {
+    	margin-top:20px;
+    }
+
+    .education div:nth-child(2){
+    	display: none;
+    }
+
+    .workexp div:nth-child(2){
+    	display: none;
+    }
+
+    .blank{
+    	display: none;
+    }
+
+    .education_details {
     	width: 100%;
     }
 
-    .main {
-    	width: 88%;
+    .work_details {
+    	width: 100%;
+    }
+
+    .degree, .title {
+    	font-size: 14px;
+    }
+
+    .rightAlign {
+    	text-align: left;
+    }
+
+    .gap {
+    	margin-top: -15px;
+    }
+
+    .gap1 {
+    	margin-top: 20px;
+    }
+
+    .education_details {
+    	text-align: left;
+    }
+
+    .school, .company {
+    	margin-top: 10px;
+    }
+
+    .education .university {
+    	line-height: 12px;
+    }
+
+    .year {
+    	letter-spacing: 0px;
+	    font-size: 16px;
+	    margin-top: 8px;
+    }
+
+    .description {
+    	margin-top: 0;
     }
 
     /******************************mobile-skill section****************************/
