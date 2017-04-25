@@ -316,39 +316,54 @@ h2 {
 	color: #777;
 	line-height: 34px;
 	font-family: 'vijaya';
-	text-align: center;
+	/* text-align: justify; */
 }
 
 .paragraph .resume {
 	margin-top:30px;
-	text-align:center;
-}
+	/* text-align:center; */
+} 
 
 .paragraph p {
 	margin-top: 10px;
 }
 
-#more span:hover {
-	color: #333;
+#strength {
+	text-align:center;
 }
 
 #strength span{
-	text-decoration:none;
 	color: #0f999e;
 }
 
 #myheading {
 	font-family: 'Vijaya Bold';
+	text-align:center;
 }
 
 #read_more {
 	cursor: pointer;
 	color: #999;
 	font-size: 22px;
+	text-align: center;
 }
 
 #read_more:hover {
 	color: #666;
+}
+
+#more span:hover {
+	color: #333;
+}
+
+#accomplishment h2{
+	font-family: 'Vijaya Bold';
+	text-align: center;
+}
+
+#accomplishment p{
+	font-family: 'Vijaya';
+	text-align: justify;
 }
 
 .button {
