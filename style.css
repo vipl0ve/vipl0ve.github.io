@@ -302,12 +302,16 @@ h2 {
 }
 
 .dp {
-	background: url(images/dp.jpg) no-repeat center;
-    height: 169px;
-    width: 152px;
-    margin: 0 auto;
-    border: 1px solid #ccc;
+	text-align: center;
+}
+
+.dp img {
+	border: 1px solid #ccc;
     padding: 5px;
+}
+
+.dp_mobile {
+	display: none;
 }
 
 .paragraph {
@@ -316,16 +320,16 @@ h2 {
 	color: #777;
 	line-height: 34px;
 	font-family: 'vijaya';
-	/* text-align: justify; */
 }
 
 .paragraph .resume {
 	margin-top:30px;
-	/* text-align:center; */
+	text-align:center;
 } 
 
 .paragraph p {
 	margin-top: 10px;
+	text-align: justify;
 }
 
 #strength {
@@ -356,13 +360,19 @@ h2 {
 	color: #333;
 }
 
-#accomplishment h2{
-	font-family: 'Vijaya Bold';
+.accomplishment h3{
 	text-align: center;
+	font-size: 18px;
+    font-family: 'opensans-bold';
+    color: #333;
+    text-transform: uppercase;
 }
 
-#accomplishment p{
-	font-family: 'Vijaya';
+.accomplishment p{
+	font-size: 24px;
+	color: #777;
+	line-height: 34px;
+	font-family: 'vijaya';
 	text-align: justify;
 }
 
@@ -422,6 +432,7 @@ h2 {
 	font-size: 15px;
 	line-height: 30px;
 	margin-top: 5px;
+	text-align: justify;
 }
 
 .skill_section div p span {
@@ -696,37 +707,45 @@ h2 {
 #contactMe {
 	width: 100%;
 	background-color: #191919;
-	padding: 160px 0;
+	padding: 130px 0;
 	overflow: hidden;
 }
 
-.contact_body {
-	text-align: center;
-}
-
 .contact_body h2 {
-	color: #fff;
+	color: #eee;
 	font-size: 24px;
-	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
 .contact_body p {
-	margin-top:20px;
-	color: #00cdff;
+	text-align: center;
+	color: #eee;
 }
 
-.contact_body p a {
+.location {
+	background: url(images/location.png) no-repeat 37%;
+	height: 25px;
+	margin-top: 35px;
+	margin-left: 25px;
+}
+
+.email {
+	background: url(images/email.png) no-repeat 37%;
+	height: 25px;
+	margin-top: 35px;
+    margin-left: 25px;
+}
+
+.email a {
 	font-family: 'vijaya';
 	text-decoration: none;
-    color: #00cdff;
+    color: #eee;
     font-size: 22px;
 }
 
-.contact_body p a:hover{
-	color: #11ABB0;
+.email a:hover{
+	color: #00cdff;
 }
-
 
 /*************************************footer****************************************/
 
@@ -908,10 +927,13 @@ footer p span a:hover{
     	font-size: 16px;
     }
 
-    .dp {
-    	background: url(images/dp_mobile.jpg) no-repeat center;
-    	height: 111px;
-    	width: 100px;
+    .dp_main {
+    	display: none;
+    }
+
+    .dp_mobile {
+    	display: block;
+    	margin: 0 auto;
     }
 
     .paragraph {
@@ -926,6 +948,15 @@ footer p span a:hover{
     .paragraph .resume {
     	margin-top: 25px;
     }
+
+    .accomplishment h3{
+	    font-size: 14px;
+	}
+
+	.accomplishment p{
+		line-height: 22px;
+    	font-size: 18px;
+	}
 
     #read_more {
     	font-size: 17px;
@@ -1069,7 +1100,7 @@ footer p span a:hover{
     /******************************mobile-contact section****************************/
 
     #contactMe {
-    	padding: 160px 0;
+    	padding: 150px 0;
     }
 
     .contact_body h2 {
@@ -1078,13 +1109,21 @@ footer p span a:hover{
     }
 
     .contact_body p {
-    	line-height: 20px;
-    	font-size: 12px;
+    	font-size: 13px;
     }
 
-    .contact_body p a {
-    	font-size: 18px;
+    .location {
+    	background: url(images/location.png) no-repeat 10%;
     }
+
+    .email {
+    	background: url(images/email.png) no-repeat 10%;
+    	margin-top: 26px;
+	}
+
+	.email a {
+		font-size: 18px;
+	}
 
     /******************************mobile-footer****************************/
 
