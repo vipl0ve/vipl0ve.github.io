@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+User-Agent: Googlebot
+Disallow: /docs/*
+
+Sitemap: http://viploveprakash.com/sitemap.xml
