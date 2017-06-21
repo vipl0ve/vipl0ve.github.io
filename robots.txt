@@ -1,5 +1,5 @@
 User-agent: *
-Disallow:
+Disallow: /docs/*
 
 User-Agent: Googlebot
 Disallow: /docs/*

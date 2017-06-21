@@ -121,6 +121,7 @@ header {
     color: #fff;
     letter-spacing: -2px;
     line-height: 113px;
+	vertical-align: bottom;
 }
 
 .bg_opaque {
