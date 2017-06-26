@@ -116,12 +116,15 @@ header {
     height: 370px;
 }
 
+.my_block {
+	text-align: center;
+}
+
 .my_block h1{
 	font: 90px/1.1em 'opensans-bold', sans-serif;
     color: #fff;
     letter-spacing: -2px;
     line-height: 113px;
-	vertical-align: bottom;
 }
 
 .bg_opaque {
@@ -261,7 +264,8 @@ header {
 .my_block h1 { 
 	overflow:hidden;
 	white-space:nowrap;
-	width: 100%;
+	width: 50%;
+	margin:0 auto;
 	animation: typing 6s steps(60, end);
 	animation-iteration-count: infinite;
 	-moz-animation: typing 6s steps(60, end);
