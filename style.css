@@ -727,8 +727,8 @@ h2 {
 	color: #eee;
 }
 
-.location {
-	background: url(images/location.png) no-repeat 33%;
+.contact_text {
+	/*background: url(images/location.png) no-repeat 33%;*/
 	height: 25px;
 	margin-top: 35px;
 	margin-left: 25px;
