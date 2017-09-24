@@ -259,6 +259,10 @@ header {
 	content: "\f077";
 }
 
+.fa-envelope:before {
+	content: "\f0e0";
+}
+
 /*************************text animation section************************/
 
 .my_block h1 { 
@@ -413,7 +417,8 @@ h2 {
 
 .skill_section {
 	width: 100%;
-	margin: 0 auto;
+	overflow: hidden;
+	margin-bottom: 20px;
 }
 
 .skill2 {
@@ -421,9 +426,13 @@ h2 {
 }
 
 .skill_section div {
-	display: inline-block;
+	float:left;
 	width: 45%;
 	text-align: center;
+}
+
+.marginLeft {
+	margin-left:10%;
 }
 
 .skill_section div p:nth-child(2){
@@ -459,7 +468,7 @@ h2 {
 }
 
 #qa {
-	background: url(images/qa.png) no-repeat center;
+	background: url(images/ai.png) no-repeat center;
 	height: 80px;
 }
 
@@ -728,24 +737,13 @@ h2 {
 }
 
 .contact_text {
-	/*background: url(images/location.png) no-repeat 33%;*/
-	height: 25px;
-	margin-top: 35px;
-	margin-left: 25px;
-}
-
-.email {
-	background: url(images/email.png) no-repeat 36%;
-	height: 25px;
-	margin-top: 35px;
-    margin-left: 25px;
+	margin: 30px 0;
 }
 
 .email a {
-	font-family: 'vijaya';
 	text-decoration: none;
     color: #eee;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .email a:hover{
@@ -1053,10 +1051,10 @@ footer p span a:hover{
 
     .skill_section div {
     	width: 100%;
+		float: none;
     }
 
     #sd {
-    	margin-top: 17px;
     	height: 60px;
     }
 
@@ -1072,6 +1070,11 @@ footer p span a:hover{
     	font-size: 12px;
     	line-height: 22px;
     }
+
+	.marginLeft {
+		margin-left:0;
+		margin-top: 20px;
+	}
 
 	/******************************mobile-blog section****************************/
 
@@ -1117,17 +1120,8 @@ footer p span a:hover{
     	font-size: 13px;
     }
 
-    .location {
-    	background: url(images/location.png) no-repeat 9%;
-    }
-
-    .email {
-    	background: url(images/email.png) no-repeat 13%;
-    	margin-top: 26px;
-	}
-
-	.email a {
-		font-size: 18px;
+	.contact_text {
+		margin: 25px 0;
 	}
 
     /******************************mobile-footer****************************/
@@ -1148,28 +1142,3 @@ footer p span a:hover{
     	width: 60px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
