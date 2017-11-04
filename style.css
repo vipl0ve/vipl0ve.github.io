@@ -369,6 +369,14 @@ h2 {
 	color: #333;
 }
 
+.paragraph h3{
+	text-align: center;
+	font-size: 18px;
+    font-family: 'opensans-bold';
+    color: #333;
+    text-transform: uppercase;
+}
+
 .accomplishment h3{
 	text-align: center;
 	font-size: 18px;
