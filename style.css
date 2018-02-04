@@ -111,9 +111,9 @@ header {
 	width: 100%;
 	background: url(images/header-background-LQ.jpg) no-repeat top center;
    	background-size: cover !important;
-	padding: 165px 0;
-	overflow: hidden;
-    height: 370px;
+    padding: 140px 0;
+    overflow: hidden;
+    height: 440px;
 }
 
 .my_block {
@@ -163,7 +163,7 @@ header {
 .down-arrow {
 	text-align: center;
 	position: relative;
-	top: 100px;
+	top: 85px;
 }
 
 .down-arrow a {
@@ -261,6 +261,10 @@ header {
 
 .fa-envelope:before {
 	content: "\f0e0";
+}
+
+.fa-chevron-right:before {
+	content: "\f054";
 }
 
 /*************************text animation section************************/
@@ -466,22 +470,22 @@ h2 {
 }
 
 #pm {
-	background: url(images/pm.png) no-repeat center;
+	background: url(images/skills-icon/product-management.png) no-repeat center;
 	height: 80px;
 }
 
 #sd {
-	background: url(images/sd.png) no-repeat center;
+	background: url(images/skills-icon/software-development.png) no-repeat center;
 	height: 80px;
 }
 
 #qa {
-	background: url(images/ai.png) no-repeat center;
+	background: url(images/skills-icon/investment-associate.png) no-repeat center;
 	height: 80px;
 }
 
 #da {
-	background: url(images/da.png) no-repeat center;
+	background: url(images/skills-icon/data-analysis.png) no-repeat center;
 	height: 80px;
 }
 
@@ -514,7 +518,7 @@ h2 {
 
 .edu_icon {
 	width: 20%;
-	background: url(images/grad.png) no-repeat 50% 0%;
+	background: url(images/timeline-icon/grad.png) no-repeat 50% 0%;
 	height: 169px;
 }
 
@@ -546,7 +550,7 @@ h2 {
 
 .exp_icon {
 	width: 20%;
-	background: url(images/exp.png) no-repeat 50% -4%;
+	background: url(images/timeline-icon/exp.png) no-repeat 50% -4%;
 	height: 160px;
 }
 
@@ -589,7 +593,7 @@ h2 {
 
 .game_icon {
 	width: 20%;
-	background: url(images/gaming.png) no-repeat 50% 0%;
+	background: url(images/timeline-icon/gaming.png) no-repeat 50% 0%;
 	height: 160px;
 }
 
@@ -635,6 +639,127 @@ h2 {
 	margin-top: 10px;
 }
 
+.firstIconHeight {
+    height: 180px;
+}
+
+.secondIconHeight {
+    height: 200px;
+}
+
+.thirdIconHeight {
+    height: 190px;
+}
+
+.fourthIconHeight {
+    height: 180px;
+}
+
+.fifthIconHeight {
+    height: 200px;
+}
+
+.gameIconHeight {
+    height: 180px;
+}
+
+/*******************************project section*****************************/
+
+#project {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 90px 0;
+    overflow: hidden;
+}
+
+.marginTopTwenty {
+    margin-top: 20px;
+}
+
+.projectBlock {
+    width: 97%;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 15px;
+    line-height: 30px;
+    color: #777;
+}
+
+.projectIcon {
+    height: 50px;
+    float: left;
+    background-color: #96251d;
+    padding: 6px 32px;
+    margin: 9px 25px 0 10px;
+}
+
+.gameIcon {
+    background: url(images/project-icon/social-game.png) no-repeat center;
+}
+
+.analysisIcon {
+    background: url(images/project-icon/data-analysis.png) no-repeat center;
+}
+
+.projectDetails {
+    float: left;
+    width: 89%;
+}
+
+.contentTiltle h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #333;
+    float: left;
+}
+
+.contentTiltle .projectDate {
+    float: right;
+    font-family: 'vijaya';
+    color: #333;
+    font-size: 20px;
+}
+
+.role {
+    color: #333;
+    font-weight: bold;
+}
+
+.projectLink {
+    font-size: 13px;
+    color: #333;
+}
+
+.projectLink a {
+    text-decoration: none;
+    color: #11ABB0;
+}
+
+.projectLink a:hover {
+    color: #0d888c;
+}
+
+#view_project {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#view_project a {
+    color: #999;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#view_project a:hover {
+    color: #666;
+}
+
+#project .fa-chevron-right {
+    font-size: 13px;
+    margin-left: 10px;
+}
 
 /*******************************blog section*****************************/
 
