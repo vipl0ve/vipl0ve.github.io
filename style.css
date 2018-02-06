@@ -113,7 +113,6 @@ header {
    	background-size: cover !important;
     padding: 140px 0;
     overflow: hidden;
-    height: 440px;
 }
 
 .my_block {
@@ -418,6 +417,17 @@ h2 {
 	background-color: #444;
 }
 
+.readMoreLink {
+    margin-left: 10px;
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+}
+
+.readMoreLink:hover {
+    color: #666;
+}
+
 /*************************************skill section********************************************/
 
 #skillSets {
@@ -688,19 +698,20 @@ h2 {
 }
 
 .projectIcon {
-    height: 50px;
     float: left;
-    background-color: #96251d;
-    padding: 6px 32px;
-    margin: 9px 25px 0 10px;
+    width: 9%;
+    overflow: hidden;
+    padding: 30px 0;
+    margin-right: 15px;
 }
 
 .gameIcon {
-    background: url(images/project-icon/social-game.png) no-repeat center;
+    background: url(images/project-icon/gameIcon.png) no-repeat top;
+    margin-top: 10px;
 }
 
 .analysisIcon {
-    background: url(images/project-icon/data-analysis.png) no-repeat center;
+    background: url(images/project-icon/analysis.png) no-repeat center;
 }
 
 .projectDetails {
@@ -1015,7 +1026,7 @@ footer p span a:hover{
 
 	#home {
 	    padding: 100px 0;
-	    height: 448px;
+	    height: 470px;
 		background: url(images/bg_mobile.jpg) no-repeat top center;
 
 	}
@@ -1045,7 +1056,7 @@ footer p span a:hover{
 	}
 
 	.down-arrow {
-	    top: 70px;
+	    top: 40px;
 	}
 
 	/******************************mobile-about section****************************/
@@ -1094,7 +1105,7 @@ footer p span a:hover{
     	font-size: 18px;
 	}
 
-    #read_more {
+    #read_more, .readMoreLink {
     	font-size: 17px;
     }
 
@@ -1112,10 +1123,6 @@ footer p span a:hover{
     .main {
     	margin-top: 0;
     	font-size: 13px;
-    }
-
-    .work_details {
-    	margin-top:20px;
     }
 
     .education div:nth-child(2){
@@ -1208,6 +1215,67 @@ footer p span a:hover{
 		margin-left:0;
 		margin-top: 20px;
 	}
+    
+    /******************************mobile-blog section****************************/
+    
+    #project {
+        padding: 80px 0;
+    }
+    
+    .mobileWrapper {
+        width: 100%;
+    }
+    
+    .projectBlock {
+        margin: 0 auto;
+        width: 94%;
+        padding: 0;
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 12px;
+    }
+    
+    .projectDetails {
+        float: none;
+        width: 94%;
+        margin:0 auto;
+        padding: 10px 0;
+    }
+    
+    .contentTiltle h3 {
+        font-family: 'OpenSans-Bold';
+        font-size: 13px;
+    }
+    
+    .contentTiltle .projectDate {
+        font-size: 16px;
+    }
+    
+    .projectIcon {
+        display: none;
+    }
+    
+    .role {
+        font-family: 'OpenSans-Semibold'
+    }
+    
+    .projectLink {
+        font-size: 11px;
+    }
+    
+    #view_project {
+        margin-top: 0;
+        line-height: 14px;
+    }
+    
+    #view_project a {
+        font-size: 11.5px;
+    }
+    
+    #project .fa-chevron-right {
+        font-size: 9px;
+        margin-left: 3px;
+    }
 
 	/******************************mobile-blog section****************************/
 

@@ -37,7 +37,17 @@
 			
 <body>  
     
-    <div id="headerSection"></div>
+    <header>
+        <ul id="nav">
+            <li><a href="index.html#home" onclick="ga('send', 'event', 'Header', 'Click', 'Home');">Home</a></li>
+            <li><a href="index.html#aboutMe" onclick="ga('send', 'event', 'Header', 'Click', 'About Me');">About</a></li>
+            <li><a href="index.html#skillSets" onclick="ga('send', 'event', 'Header', 'Click', 'Skills');">Skills</a></li>
+            <li><a href="index.html#timeline" onclick="ga('send', 'event', 'Header', 'Click', 'Timeline');">Timeline</a></li>
+            <li><a class="active" href="#project" onclick="ga('send', 'event', 'Header', 'Click', 'Project');" id="activeMenu">Project</a></li>
+            <li><a href="index.html#blog" onclick="ga('send', 'event', 'Header', 'Click', 'Blog');">Blog</a></li>
+            <li><a href="index.html#contactMe" onclick="ga('send', 'event', 'Header', 'Click', 'Contact Me');">Contact</a></li>
+        </ul>
+    </header>
 
     <!--**************************************project section************************************************-->
 
@@ -45,7 +55,7 @@
 		<div class="wrapper">
             <h2>My Project</h2>
             <div class="projectBlock marginTopTwenty">
-                <div class="projectIcon"></div>
+                <div class="projectIcon gameIcon"></div>
                 <div class="projectDetails">
                     <div class="contentTiltle">
                         <h3>Bet with Friends</h3>
@@ -61,7 +71,7 @@
             </div>
             <div class="clear"></div>
             <div class="projectBlock marginTopTwenty">
-                <div class="projectIcon"></div>
+                <div class="projectIcon analysisIcon"></div>
                 <div class="projectDetails">
                     <div class="contentTiltle">
                         <h3>Bet with Friends</h3>
@@ -77,7 +87,7 @@
             </div>
             <div class="clear"></div>
             <div class="projectBlock marginTopTwenty">
-                <div class="projectIcon"></div>
+                <div class="projectIcon gameIcon"></div>
                 <div class="projectDetails">
                     <div class="contentTiltle">
                         <h3>Bet with Friends</h3>
@@ -108,8 +118,7 @@
 
 	<script type="text/javascript">
         //adding header and footer section to the index page
-        $(function(){
-          $("#headerSection").load("header.html"); 
+        $(function(){ 
           $("#footerSection").load("footer.html"); 
         });
 	</script>
