@@ -352,6 +352,10 @@ h2 {
 	color: #0f999e;
 }
 
+#interest {
+	text-align:center;
+}
+
 #myheading {
 	font-family: 'Vijaya Bold';
 	text-align:center;
@@ -394,6 +398,10 @@ h2 {
 	line-height: 34px;
 	font-family: 'vijaya';
 	text-align: justify;
+}
+
+.accomplishment span{
+	font-family: 'Vijaya Bold';
 }
 
 .button {
