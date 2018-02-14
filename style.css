@@ -479,6 +479,14 @@ h2 {
 	text-align: center;
 }
 
+.skill_section div p:nth-child(4){
+	color: #777;
+	font-size: 15px;
+	line-height: 30px;
+	margin-top: 5px;
+	text-align: center;
+}
+
 .skill_section div p span {
 	font-family: 'OpenSans-Semibold';
 }
