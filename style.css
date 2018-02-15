@@ -46,6 +46,13 @@
 }
 
 @font-face {
+    font-family: 'Gothic Bold';
+    src: url('fonts/gothicb.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'vijaya';
     src: url('fonts/vijaya.ttf');
     font-weight: normal;
@@ -87,6 +94,18 @@ header {
 	clear: both;
 }
 
+.pointer {
+    cursor: pointer;
+}
+
+.displayNone {
+    display: none;
+}
+
+.displayBlock {
+    display: block;
+}
+
 #nav li{
 	list-style-type: none;
 	display: inline-block;
@@ -113,6 +132,13 @@ header {
    	background-size: cover !important;
     padding: 140px 0;
     overflow: hidden;
+}
+
+.circle {
+    font-size: 6px;
+    position: relative;
+    top: -3px;
+    margin: 0 5px;
 }
 
 .my_block {
@@ -359,6 +385,7 @@ h2 {
 #myheading {
 	font-family: 'Vijaya Bold';
 	text-align:center;
+    margin-bottom: 20px;
 }
 
 #read_more {
@@ -378,10 +405,23 @@ h2 {
 
 .paragraph h3{
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
     font-family: 'opensans-bold';
-    color: #333;
+    color: #555;
+    padding: 5px 0;
+    background: #f1f1f1;
+    margin-top: 15px;
     text-transform: uppercase;
+    -webkit-transition: font-size 0.5s ease-in-out;
+    -moz-transition: font-size 0.5s ease-in-out;
+    transition: font-size 0.5s ease-in-out;
+}
+
+.paragraph h3:hover {
+    font-size: 18px;
+    color: #444;
+    background: #e1e1e1;
+    padding: 5px 0;
 }
 
 .accomplishment h3{
@@ -440,7 +480,7 @@ h2 {
 
 #skillSets {
 	width: 100%;
-	background-color: #f6f6f6;
+	background-color: #fff;
 	padding: 90px 0;
 	overflow: hidden;
 }
@@ -1042,7 +1082,7 @@ footer p span a:hover{
 
 	#home {
 	    padding: 100px 0;
-	    height: 470px;
+	    height: 575px;
 		background: url(images/bg_mobile.jpg) no-repeat top center;
 
 	}
@@ -1106,6 +1146,14 @@ footer p span a:hover{
 
     .paragraph p {
     	margin-top: 7px;
+    }
+    
+    .paragraph h3 {
+        font-size: 13px;
+    }
+    
+    .paragraph h3:hover {
+        font-size: 13px;
     }
 
     .paragraph .resume {
@@ -1222,7 +1270,7 @@ footer p span a:hover{
     	font-size: 14px;
     }
 
-    .skill_section div p:nth-child(3){
+    .skill_section div p:nth-child(3), .skill_section div p:nth-child(4){
     	font-size: 12px;
     	line-height: 22px;
     }
