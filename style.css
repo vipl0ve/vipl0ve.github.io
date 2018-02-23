@@ -292,6 +292,10 @@ header {
 	content: "\f054";
 }
 
+.fa-chevron-left:before {
+    content: "\f053";
+}
+
 /*************************text animation section************************/
 
 .my_block h1 { 

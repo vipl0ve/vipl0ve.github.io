@@ -1,7 +1,3 @@
-$(document).ready(function () {
-    closeAll();         
-});
-
 var closeAll = function(){
     $('.aboutHeads').css('display','none');
 };
