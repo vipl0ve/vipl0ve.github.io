@@ -128,7 +128,7 @@ header {
 
 #home {
 	width: 100%;
-	background: url(images/header-background-LQ.jpg) no-repeat top center;
+	background: url(images/background/header-background-LQ.jpg) no-repeat top center;
    	background-size: cover !important;
     padding: 140px 0;
     overflow: hidden;
@@ -1087,7 +1087,7 @@ footer p span a:hover{
 	#home {
 	    padding: 100px 0;
 	    height: 575px;
-		background: url(images/bg_mobile.jpg) no-repeat top center;
+		background: url(images/background/bg_mobile.jpg) no-repeat top center;
 
 	}
 
