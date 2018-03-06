@@ -770,8 +770,17 @@ h2 {
     margin-top: 10px;
 }
 
+.chromeIcon {
+    background: url(images/project-icon/chromeIcon.png) no-repeat top;
+    margin-top: 10px;
+}
+
 .analysisIcon {
-    background: url(images/project-icon/analysis.png) no-repeat center;
+    background: url(images/project-icon/analysisIcon.png) no-repeat center;
+}
+
+.blogIcon {
+    background: url(images/project-icon/blogIcon.png) no-repeat center;
 }
 
 .projectDetails {
