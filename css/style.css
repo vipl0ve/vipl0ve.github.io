@@ -717,11 +717,11 @@ h2 {
 }
 
 .secondIconHeight {
-    height: 200px;
+    height: 180px;
 }
 
 .thirdIconHeight {
-    height: 190px;
+    height: 200px;
 }
 
 .fourthIconHeight {
@@ -729,7 +729,11 @@ h2 {
 }
 
 .fifthIconHeight {
-    height: 200px;
+    height: 180px;
+}
+
+.sixthIconHeight {
+	height: 180px;
 }
 
 .gameIconHeight {
@@ -1111,7 +1115,7 @@ footer p span a:hover{
 	.bg_opaque {
     	width: 88%;
     	padding: 3% 6%;
-        margin-top: 35px;
+        margin-top: 25px;
 	}
 
 	.bg_opaque .info {
