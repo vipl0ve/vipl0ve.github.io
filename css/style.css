@@ -5,63 +5,63 @@
 
 @font-face {
 	font-family: 'FontAwesome';
-	src: url('fonts/FontAwesome.otf');
+	src: url('../fonts/FontAwesome.otf');
 	font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OpenSans-Light';
-    src: url('fonts/OpenSans-Light.ttf');
+    src: url('../fonts/OpenSans-Light.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OpenSans-Regular';
-    src: url('fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OpenSans-Semibold';
-    src: url('fonts/OpenSans-Semibold.ttf');
+    src: url('../fonts/OpenSans-Semibold.ttf');
     font-weight: normal;
     font-style: normal;
 }
        
 @font-face {
     font-family: 'OpenSans-Bold';
-    src: url('fonts/OpenSans-Bold.ttf');
+    src: url('../fonts/OpenSans-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Century Gothic';
-    src: url('fonts/Century Gothic.ttf');
+    src: url('../fonts/Century Gothic.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Gothic Bold';
-    src: url('fonts/gothicb.ttf');
+    src: url('../fonts/gothicb.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'vijaya';
-    src: url('fonts/vijaya.ttf');
+    src: url('../fonts/vijaya.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Vijaya Bold';
-    src: url('fonts/Vijaya Bold.ttf');
+    src: url('../fonts/Vijaya Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -128,7 +128,7 @@ header {
 
 #home {
 	width: 100%;
-	background: url(images/background/header-background-LQ.jpg) no-repeat top center;
+	background: url(../images/background/header-background-LQ.jpg) no-repeat top center;
    	background-size: cover !important;
     padding: 140px 0;
     overflow: hidden;
@@ -163,7 +163,7 @@ header {
 .bg_opaque .info {
 	font-family: 'Century Gothic';
 	font-size: 18px;
-	color: #a1a1a1;
+	color: #fff;
 	line-height: 35px;
 }
 
@@ -543,22 +543,22 @@ h2 {
 }
 
 #pm {
-	background: url(images/skills-icon/product-management.png) no-repeat center;
+	background: url(../images/skills-icon/product-management.png) no-repeat center;
 	height: 80px;
 }
 
 #sd {
-	background: url(images/skills-icon/software-development.png) no-repeat center;
+	background: url(../images/skills-icon/software-development.png) no-repeat center;
 	height: 80px;
 }
 
 #qa {
-	background: url(images/skills-icon/investment-associate.png) no-repeat center;
+	background: url(../images/skills-icon/investment-associate.png) no-repeat center;
 	height: 80px;
 }
 
 #da {
-	background: url(images/skills-icon/data-analysis.png) no-repeat center;
+	background: url(../images/skills-icon/data-analysis.png) no-repeat center;
 	height: 80px;
 }
 
@@ -591,7 +591,7 @@ h2 {
 
 .edu_icon {
 	width: 20%;
-	background: url(images/timeline-icon/grad.png) no-repeat 50% 0%;
+	background: url(../images/timeline-icon/grad.png) no-repeat 50% 0%;
 	height: 169px;
 }
 
@@ -623,7 +623,7 @@ h2 {
 
 .exp_icon {
 	width: 20%;
-	background: url(images/timeline-icon/exp.png) no-repeat 50% -4%;
+	background: url(../images/timeline-icon/exp.png) no-repeat 50% -4%;
 	height: 160px;
 }
 
@@ -666,7 +666,7 @@ h2 {
 
 .game_icon {
 	width: 20%;
-	background: url(images/timeline-icon/gaming.png) no-repeat 50% 0%;
+	background: url(../images/timeline-icon/gaming.png) no-repeat 50% 0%;
 	height: 160px;
 }
 
@@ -769,21 +769,21 @@ h2 {
 }
 
 .gameIcon {
-    background: url(images/project-icon/gameIcon.png) no-repeat top;
+    background: url(../images/project-icon/gameIcon.png) no-repeat top;
     margin-top: 10px;
 }
 
 .chromeIcon {
-    background: url(images/project-icon/chromeIcon.png) no-repeat top;
+    background: url(../images/project-icon/chromeIcon.png) no-repeat top;
     margin-top: 10px;
 }
 
 .analysisIcon {
-    background: url(images/project-icon/analysisIcon.png) no-repeat center;
+    background: url(../images/project-icon/analysisIcon.png) no-repeat center;
 }
 
 .blogIcon {
-    background: url(images/project-icon/blogIcon.png) no-repeat center;
+    background: url(../images/project-icon/blogIcon.png) no-repeat center;
 }
 
 .projectDetails {
@@ -1099,7 +1099,7 @@ footer p span a:hover{
 	#home {
 	    padding: 100px 0;
 	    height: 575px;
-		background: url(images/background/bg_mobile.jpg) no-repeat top center;
+		background: url(../images/background/bg_mobile.jpg) no-repeat top center;
 
 	}
 
